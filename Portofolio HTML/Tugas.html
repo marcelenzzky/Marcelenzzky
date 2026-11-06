@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marceleno Tanjung | Portofolio</title>
+  <meta name="description" content="Portofolio Marceleno Tanjung - Web Developer & Designer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Tugas.css">
+</head>
+<body>
+
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">Marceleno<span>.dev</span></a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="nav-links">
+      <a href="#about">Tentang</a>
+      <a href="#skills">Skill</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact" class="nav-cta">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="badge"><span class="dot"></span> Terbuka untuk proyek &amp; magang</p>
+        <h1>Halo, gw <span class="gradient-text">Marceleno Tanjung</span><br>Web Developer.</h1>
+        <p class="hero-desc">
+          Gw suka bikin website yang bersih, cepat, dan enak dilihat.
+          Lagi belajar dan membangun portofolio lewat HTML &amp; CSS.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+          <a href="#contact" class="btn btn-ghost">Hubungi Gw</a>
+        </div>
+
+        <ul class="stats">
+          <li><strong>10+</strong><span>Proyek</span></li>
+          <li><strong>2+</strong><span>Tahun belajar</span></li>
+          <li><strong>100%</strong><span>Semangat</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <!-- Ganti dengan foto kamu: <img src="foto.jpg" alt="Foto Nama Kamu"> -->
+          <div class="avatar">MT</div>
+        </div>
+        <div class="floating-card card-a">&lt;/&gt; HTML</div>
+        <div class="floating-card card-b">{ } CSS</div>
+        <div class="floating-card card-c">✦ UI</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">01 — Tentang</p>
+      <h2>Sedikit tentang gw</h2>
+      <div class="about-grid">
+        <p>
+           Saya Marceleno Tanjung, seorang mahasiswa yang menaruh minat pada pengembangan
+  web dan isu-isu sosial. Saya tertarik pada pemikiran kiri, khususnya gagasan
+  tentang keadilan sosial, kesetaraan ekonomi, dan perlindungan hak pekerja.
+  Bagi saya, teknologi seharusnya dapat diakses oleh semua orang dan dimanfaatkan
+  untuk kepentingan bersama, bukan hanya segelintir pihak. Melalui portofolio
+  ini, saya ingin menunjukkan kemampuan teknis sekaligus nilai-nilai yang saya
+  pegang dalam berkarya.
+        </p>
+        <ul class="info-list">
+          <li><span>Nama</span> Marceleno Tanjung</li>
+          <li><span>Lokasi</span> Cileungsi, Indonesia</li>
+          <li><span>Pendidikan</span> S1 / Unindra</li>
+          <li><span>Minat</span> Web, UI Design, Ngoding</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">02 — Skill</p>
+      <h2>Yang gw kuasai</h2>
+      <div class="skills-grid">
+
+        <div class="skill">
+          <div class="skill-head"><h3>HTML</h3><span>90%</span></div>
+          <div class="bar"><div class="fill" style="--w: 90%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head"><h3>CSS</h3><span>85%</span></div>
+          <div class="bar"><div class="fill" style="--w: 85%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head"><h3>Responsive Design</h3><span>80%</span></div>
+          <div class="bar"><div class="fill" style="--w: 80%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head"><h3>UI / Layout</h3><span>75%</span></div>
+          <div class="bar"><div class="fill" style="--w: 75%"></div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">03 — Proyek</p>
+      <h2>Karya pilihan</h2>
+      <div class="projects-grid">
+
+        <article class="project">
+          <div class="thumb">
+  <img src="KIRI.jpg" alt="Ideologi Kiri">
+</div>
+          <div class="project-body">
+            <h3>Ideologi Kiri</h3>
+            <p> Pandangan Kiri</p>
+            <div class="tags"><span>HTML</span><span>CSS</span></div>
+            <a href="#" class="link">Lihat proyek →</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb thumb-2"><span>02</span></div>
+          <div class="project-body">
+            <h3>Website Profil Sekolah</h3>
+            <p>Website informasi sekolah dengan navigasi rapi dan mudah dipakai.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Grid</span></div>
+            <a href="#" class="link">Lihat proyek →</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb thumb-3"><span>03</span></div>
+          <div class="project-body">
+            <h3>Desain Blog Pribadi</h3>
+            <p>Tampilan blog minimalis dengan fokus ke keterbacaan konten.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Flexbox</span></div>
+            <a href="#" class="link">Lihat proyek →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">04 — Kontak</p>
+      <h2>Yuk ngobrol!</h2>
+      <p class="contact-desc">
+        Ada proyek, kolaborasi, atau sekadar mau nyapa? Kirim aja pesan.
+      </p>
+      <a href="mailto:marcelenotanjung@gmail.com" class="btn btn-primary btn-big">marcelenotanjung@gmail.com</a>
+
+      <div class="socials">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 marcelenotanjung. Dibuat dengan HTML &amp; CSS.</p>
+  </footer>
+
+</body>
+</html>
